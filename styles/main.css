@@ -1,0 +1,45 @@
+body {
+  background-color: rgb(241, 95, 217);
+}
+
+
+.header__fullstack {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+}
+
+.title__fullstack {
+  font-size: 70px;
+  font-family: 'Times New Roman', Times, serif;
+}
+
+.subtitle__fullstack {
+  font-size: 35px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.author__fullstack {
+  font-size: 20px;
+  font-family: cursive;
+}
+
+.main__fullstack {
+  display: flex;
+}
+
+.forms__fullstack {
+  display: flex;
+  flex-direction: column;
+}
+
+.input__fullsatck {
+  display: flex;
+  flex-direction: column;
+}
+
+.footer__fullstack {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}

@@ -1,0 +1,67 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <title>Nashville Software School</title>
+    <link rel="stylesheet" href="./styles/main.css">
+  </head>
+  <body>
+    <script type="module" src="./scripts/main.js"></script>
+    <header class="header__fullstack">
+      <h1 class="title__fullstack">Stack OverFlow</h1>
+      <h2 class="subtitle__fullstack">My Daily Journal</h2>
+        <p class="author__fullstack">Entries by: Candace Ntembo</p>
+    </header>
+    <main class="main__fullstack">
+      
+      <section class="forms__fullstack">
+        <h2 class="subtitle--dailyentry">Daily Journal Entry</h2>
+        <form class="form__date">
+          <fieldset class="input__fullsatck">
+            <label for="entryDate">Date:</label>
+            <input type="date" name="entryDate" min="2021-04-05" id="entryForm__date"/>
+          </fieldset>
+          <fieldset class="input__fullsatck">
+            <label for="entryConcepts">Concepts Covered:</label>
+            <input type="text" name="entryConcepts" id="entryForm__concepts"/>
+          </fieldset>
+          <fieldset class="input__fullsatck">
+            <label for="entryJournal">Journal Entry:</label>
+            <input type="text" name="entryJournal" id="entryForm__journal"/>            
+          </fieldset>
+          <fieldset class="input__fullsatck">
+            <label for="entryMood">Mood:</label>
+            <select id="entryForm__mood">
+              <option value="happy">Happy</option>
+              <option value="confused">Confused</option>
+              <option value="frustated">Frustated</option>
+              <option value="eh">Eh</option>
+              <option value="excited">Excited</option>
+              <option value="over this">Over This</option>
+              <option value="learning">Learning</option>
+              <option value="ok">OK</option>
+              <option value="sad">Sad</option>
+              <option value="hopeful">Hopeful</option>
+            </select>
+          </fieldset>
+          <fieldset class="input__fullsatck">
+            <input type="submit" id="entryForm__submit" value="Record Journal Entry"/>
+          </fieldset>
+        </form>
+      </section>
+
+      <section class=""></section>
+
+      <article id="entries"></article>
+
+      <section class=""></section>
+
+    </main>
+    <footer class="footer__fullstack">
+      <p class="link__github">My link to <a href="https://github.com/cjntembo" target="_blank">GitHub</a>.</p>
+      <h3 class="footer__name">Candace Ntembo NSS Cohort E-15</h3>
+        <p class="copyright__fullstack">&#169; 2021</p>
+
+    </footer>
+  </body>
+</html>
